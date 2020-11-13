@@ -1,0 +1,38 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 18px;
+}
+.nav-links ul {
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    right: 5px;
+    margin: 20px;
+}
+.logo {
+    position: absolute;
+    left: 20px;
+    margin: 20px;
+}
+.logo span {
+    font-size: 25px;
+    padding-right: 5px;
+}
+.nav-links li {
+    padding-top: 10px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+@media all and (min-width: 700px) {
+    .nav-bar {
+        font-size: 25px;
+    }
+    .logo span {
+        font-size: 35px;
+    }
+}
