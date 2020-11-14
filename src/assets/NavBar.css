@@ -7,6 +7,8 @@
     font-size: 18px;
 }
 .nav-links ul {
+    display: flex;
+    flex-direction: row;
     text-decoration: none;
     list-style: none;
     position: absolute;
@@ -14,7 +16,10 @@
     margin: 10px;
 }
 .nav-links li {
+    display: flex;
+    flex-direction: row;
     cursor: pointer;
+    margin-right: 10px;
 }
 .logo {
     position: absolute;
