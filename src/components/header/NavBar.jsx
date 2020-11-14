@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../../assets/NavBar.css";
+import { Button, Text, View, Linking } from "react-native";
 
 class NavBar extends Component {
     state = {};
@@ -14,8 +15,22 @@ class NavBar extends Component {
                 </div>
                 <div className='nav-links'>
                     <ul>
-                        <li className='about'>About</li>
-                        <li className='contact'>Contact</li>
+                        <li className='about'>
+                            <span id='myBtn'>About</span>
+                        </li>
+                        <li className='contact'>
+                            <span
+                                id='myContact'
+                                onClick={() =>
+                                    Linking.openURL(
+                                        "mailto:donovanle18@gmail.com"
+                                    )
+                                }
+                                target='_blank'
+                            >
+                                Contact
+                            </span>
+                        </li>
 
                         <li>
                             <a
