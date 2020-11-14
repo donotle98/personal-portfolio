@@ -33,12 +33,6 @@ $time-4: 200s;
 
 /* Styles */
 
-body {
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
 .page-bg,
 .animation-wrapper {
     position: fixed;
@@ -137,10 +131,12 @@ body {
 
 .wrapper h3 {
     color: white;
-    opacity: 0.3;
+    opacity: 0.5;
     text-align: center;
     font-size: 27px;
-    margin-top: 60px;
+}
+.bg-headers {
+    padding-top: 100px;
 }
 
 .bot-main-headers {

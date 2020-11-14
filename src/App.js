@@ -20,8 +20,10 @@ function App() {
                 <div className='particle particle-4'></div>
             </div>
             <NavBar />
-            <h3>&lt;Built by: Donovan Le/&gt;</h3>
-            <h3>&lt;Full-stack developer/&gt;</h3>
+            <div className='bg-headers'>
+                <h3>&lt;Built by: Donovan Le/&gt;</h3>
+                <h3>&lt;Full-stack developer/&gt;</h3>
+            </div>
             <AnimatedSwitch
                 atEnter={{ opacity: 0 }}
                 atLeave={{ opacity: 0 }}
