@@ -1,3 +1,14 @@
+<h1>My portfolio</h1>
+
+<h4>I wanted to display my knowledge of React and CSS, the application uses: </h4>
+<ul>
+  <li>React components</li>
+  <li>React routers</li>
+  <li>React transitions</li>
+  <li>CSS webkit</li>
+  <li>CSS transitions</li>
+  </ul>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
